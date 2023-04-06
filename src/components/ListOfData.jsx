@@ -89,7 +89,7 @@ const ListOfData = ({ data, setData }) => {
 
 
   
-  // make filteredData a copy of data that only shows items with a security type that has the word "Marketable" in it
+  // makes filteredData a copy of data that only shows items with a security type that has the word "Marketable" in it
   let filteredData = data.filter(item => item.security_desc.includes("Total"));
 
   // let filteredData = data;
