@@ -2,7 +2,7 @@
 
 Submitted by: David Seo
 
-This web app: Allows a user to view interest rates from the US Treasury
+This web app: Allows a user to view interest rates from the US Treasury!
 
 Time spent: **12** hours spent in total
 
