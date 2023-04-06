@@ -23,8 +23,8 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [X] List anything else that you added to improve the site's functionality!
-  Added a way to condense all charts in the same chart box!
-  Added a way to view any year possible by simply changing the date!
+- Added a way to condense all charts in the same chart box!
+- Added a way to view any year possible by simply changing the date!
 
 ## Video Walkthrough
 
