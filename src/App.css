@@ -1,0 +1,159 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* makes the summary cards on ListOfData neater */
+.card {
+  -ms-box-orient: horizontal;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem #ccc;
+
+}
+
+.card:hover {
+  box-shadow: 0 0 1rem #aaa;
+}
+
+.card-title {
+  margin: 0.1rem;
+}
+.card-text {
+  margin: 0.1rem;
+}
+
+
+.row1 {
+  display: flex;
+  -webkit-flex-direction: row; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* makes the summary cards on ListOfData fit in one row horizontally */
+.card {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* makes the form select css and centered */
+.form-select {
+  height: 2.5em;
+  margin: 0 auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-weight: 400;
+  
+}
+.date-select {
+  height: 1.3em;
+  margin: 0 auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-weight: 400;
+  
+}
+
+.chart-box {
+  padding-bottom: 1.5em;
+}
+
+.list-header-box {
+  margin-bottom: 0px;
+}
+
+.list-subheader-box {
+  margin-top: .5em;
+  font-weight: 500;
+  color: #888;
+}
+
+/* makes the search bar centered and take only half the width and slightly tall */
+.form-control {
+  height: 1.5em;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-weight: 400;
+}
+
+.input-group-mb-3 {
+  padding-bottom: 1em;
+}
+
+/* makes items in the row fit horizontally and centered and spaced from each other */
+.row-mb-3 {
+  display: flex;
+  -webkit-flex-direction: row; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 0;
+  
+}
+
+.col-md-3 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+/* makes the table centered and neat */
+.table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 0px solid #ddd;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
