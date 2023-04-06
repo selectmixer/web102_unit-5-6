@@ -42,6 +42,7 @@ GIF created with LiceCap!
 ## Notes
 
 Describe any challenges encountered while building the app.
+- The chart(s) took a while to get running, and ultimately refactored into one neat chart!
 
 ## License
 
