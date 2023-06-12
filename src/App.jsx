@@ -8,6 +8,12 @@ import ListOfData from './components/ListOfData';
 import SummaryStats from './components/SummaryStats';
 import MonthDetails from './components/MonthDetails';
 
+const port = process.env.PORT || 3000;
+
+const http = require('http');
+
+const server = http.createServer(...);
+server.listen(port);
 
 function App() {
   const [data, setData] = useState([]);
