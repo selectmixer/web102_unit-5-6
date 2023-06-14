@@ -323,6 +323,14 @@ const ListOfData = ({ data, setData }) => {
                 <td>{item.security_desc}</td>
                 <td>{item.avg_interest_rate_amt}</td>
                 <td><Link to={`/${item.key}`}>Details</Link></td>
+                {/* the following adds a link to item key,  with an onclick*/}
+                <td><Link to={`/${item.key}`} 
+                  onClick={() => {
+                    window.gtag("event", "test_click")
+                    }
+                  }>
+                    test_click
+                  </Link></td>
               </tr>
             ))}
           </tbody>
